@@ -1,0 +1,305 @@
+.rsvp-section {
+  padding: 80px 20px;
+  background-color: var(--bg-light);
+}
+
+.rsvp-section .section-title {
+  color: var(--primary-color);
+}
+
+.form-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid var(--secondary-color);
+}
+
+.form-group {
+  margin-bottom: 35px;
+}
+
+.section-label {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+/* Team Grid Selection */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.member-card {
+  border: 2px solid #eaeaea;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  border-color: #ccc;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.member-card.selected {
+  border-color: var(--secondary-color);
+  background-color: rgba(223, 177, 91, 0.08);
+  box-shadow: 0 8px 20px rgba(223, 177, 91, 0.2);
+}
+
+.member-avatar-wrapper {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #eee;
+  transition: border-color 0.3s ease;
+}
+
+.member-card.selected .member-avatar-wrapper {
+  border-color: var(--secondary-color);
+}
+
+.member-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-info h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.member-info p {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* Form inputs styling */
+select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: #fafafa;
+}
+
+select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  background-color: white;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: #fafafa;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: 2px solid #eaeaea;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.radio-label:hover {
+  background: #f0f0f0;
+}
+
+.radio-label input {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+  accent-color: var(--primary-color);
+}
+
+.radio-label input:checked + span {
+  font-weight: 600;
+}
+
+.radio-label:has(input:checked) {
+  border-color: var(--primary-color);
+  background-color: rgba(11, 32, 70, 0.05);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 18px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(223, 177, 91, 0.3);
+}
+
+.btn-submit:hover:not(:disabled) {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(11, 32, 70, 0.3);
+}
+
+.btn-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* RSVP Result Screens */
+.rsvp-result-section {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+.success-bg {
+  background-color: var(--primary-color);
+}
+
+.sad-bg {
+  background-color: #0b1a30;
+  background-image: linear-gradient(180deg, #0b1a30 0%, #1e272e 100%);
+}
+
+.fireworks-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.response-container {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.response-card {
+  background: white;
+  padding: 50px 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.success-card {
+  border-top: 6px solid var(--secondary-color);
+}
+
+.sad-card {
+  border-top: 6px solid #485460;
+}
+
+.celebrate-emoji, .sad-emoji {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+.sad-emoji {
+  animation: weep 3s infinite;
+}
+
+.sad-title {
+  color: #1e272e;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.response-text {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.user-message-preview {
+  background: #f7f7f7;
+  border-left: 4px solid var(--secondary-color);
+  padding: 15px;
+  margin-bottom: 30px;
+  text-align: left;
+  border-radius: 0 8px 8px 0;
+}
+
+.message-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #888;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.message-content {
+  font-style: italic;
+  color: #333;
+}
+
+/* Rain Effect for Sad Screen */
+.rain-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.rain-drop {
+  position: absolute;
+  top: -20px;
+  width: 2px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  animation: fall 1.5s linear infinite;
+}
+
+/* Keyframe Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes weep {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.95); opacity: 0.8; }
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
