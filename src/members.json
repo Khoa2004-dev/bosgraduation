@@ -4,97 +4,97 @@
     "name": "Viet Nhat",
     "role": "Team Mom",
     "successMsg": "Quá tuyệt vời anh Nhật ơi! Cảm ơn anh vì đã luôn dẫn dắt, hỗ trợ và đồng hành cùng tụi em trong suốt chặng đường vừa qua. Ngày đặc biệt này sẽ không trọn vẹn nếu thiếu anh. Hẹn gặp anh tại lễ tốt nghiệp nhé! 🎓✨",
-    "sadMsg": "Thiếu anh Nhật thì ai gánh tụi em đây? Buồn quá đi mà! 😢"
+    "sadMsg": "Thiếu anh Nhật thì ai gánh tụi em đây? Buồn quá đi mà! Nhưng dù sao thì cũng cảm ơn anh vì đã luôn hỗ trợ và đồng hành cùng tụi em. Dù không thể tham gia buổi lễ lần này, tụi em vẫn rất trân trọng tình cảm, sự quan tâm và những lời chúc từ anh ❤️ Hẹn anh một dịp gần nhất nhé. Thank you for everything!"
   },
   {
     "id": "thanh_huy",
     "name": "Thanh Huy",
     "role": "Team Dad",
     "successMsg": "Tuyệt vời quá anh Huy ơi, chuẩn bị lên đồ đi thôii! 🎓🔥",
-    "sadMsg": "Ơ anh Huy không đi thật sao? Tụi em sẽ nhớ anh nhiều lắm đó! 😢"
+    "sadMsg": "Ơ anh Huy không đi thật sao? Tụi em sẽ nhớ anh nhiều lắm đó! 😢 Cảm ơn anh vì đã luôn âm thầm đồng hành cùng tụi em suốt thời gian qua. Chúc anh luôn phong độ và bớt phải đau đầu vì mấy đứa nhỏ nha 😆"
   },
   {
     "id": "nhat_quang",
     "name": "Nhat Quang",
     "role": "Sunlight",
     "successMsg": "Chào mừng anh Quang! Ngày đặc biệt này không thể thiếu anh được! 🎓🌟",
-    "sadMsg": "Buồn quá anh Quang ơi, không có anh thì ai làm sáng bừng sân khấu đây? 😢"
+    "sadMsg": "Buồn quá anh Quang ơi, không có anh thì ai làm sáng bừng sân khấu đây? 😢 Cảm ơn anh vì đã luôn hỗ trợ, đồng hành và mang tới nguồn năng lượng tích cực cho mọi người. Chúc anh tiếp tục tỏa sáng theo đúng chuẩn Sunlight nha ☀️"
   },
   {
     "id": "minh_quy",
     "name": "Minh Quy",
     "role": "Binh Nhi",
     "successMsg": "Cực kỳ háo hức được gặp anh Quý tại lễ tốt nghiệp luôn nha! 🎓🎉",
-    "sadMsg": "Ơ anh Quý không tham gia được ư? Mong sớm gặp lại anh ở dịp khác nhé! 😢"
+    "sadMsg": "Ơ anh Quý không tham gia được ư? Mong sớm gặp lại anh ở dịp khác nhé! 😢 Cảm ơn anh vì đã luôn nhiệt tình hỗ trợ tụi em. Chúc anh lúc nào cũng vui vẻ, lạc quan và giữ vững phong độ nhaa 😆"
   },
   {
     "id": "thai_thong",
     "name": "Thai Thong",
     "role": "Nguyen TT",
     "successMsg": "Lên đồ chuẩn bị đi thôi anh Thông ơi! Let's make memories! 🎓💫",
-    "sadMsg": "Thiếu anh Thông buổi lễ bớt vui đi một nửa rồi. Tiếc quá đi! 😢"
+    "sadMsg": "Thiếu anh Thông buổi lễ bớt vui đi một nửa rồi. Tiếc quá đi! 😢 Cảm ơn anh vì đã luôn nhiệt tình hỗ trợ tụi em. Chúc anh vẫn giữ được nguồn năng lượng cháy hết mình như mọi khi nha 🔥"
   },
   {
     "id": "thanh_phong",
     "name": "Thanh Phong",
     "role": "Su Dot Bien",
     "successMsg": "Thanh Phong sẽ đến và mang theo làn gió mới! Hẹn gặp ông nhé! 🎓🍃",
-    "sadMsg": "Ớ Phong không tham gia được ư? Ở lại dev kernel à! 😢"
+    "sadMsg": "Ớ Phong không tham gia được ư? Ở lại dev kernel à! 😢 Dù sao cũng cảm ơn ông đã phản hồi và đồng hành cùng tụi tui trong thời gian qua. Chúc ông hoàn thành khóa luận thuận buồm xuôi gió, bug tự biết điều mà biến mất và bảo vệ phát ăn ngay nha 💻🚀"
   },
   {
     "id": "nhat_minh",
     "name": "Nhat Minh",
     "role": "Chess Final Boss",
     "successMsg": "Có Minh là thấy vui rồi nè! Sẵn sàng tỏa sáng thôi bạn ơi! 🎓⚡",
-    "sadMsg": "Sao lại vắng mặt thế Minh ơi? Ở lại đánh cờ à? 😢"
+    "sadMsg": "Sao lại vắng mặt thế Minh ơi? Ở lại đánh cờ à? 😢 Cảm ơn ông đã để lại lời nhắn và đồng hành cùng tụi tui trong thời gian qua. Chúc ông hoàn thành khóa luận thật xuất sắc và đi những nước cờ đẹp cho chặng đường phía trước ♟️✨"
   },
   {
     "id": "van_thuong",
     "name": "Van Thuong",
     "role": "Hidden Boss",
     "successMsg": "Anh Thương đã sẵn sàng chưa? Ngày của chúng ta tới rồi! 🎓🚀",
-    "sadMsg": "Anh Thương bận mất rồi sao? Bữa tiệc sẽ thiếu đi một mảnh ghép quan trọng rồi! 😢"
+    "sadMsg": "Hidden Boss bận việc rồi sao? 😢 Cảm ơn anh đã đồng hành cùng tụi em trong thời gian qua. Chúc anh tiếp tục giữ vững phong độ và unlock thêm nhiều achievement mới 🚀"
   },
   {
     "id": "thai_bach",
     "name": "Thai Bach",
     "role": "Marathon Man 🏃",
     "successMsg": "Anh Bách đã xác nhận tham gia! Cùng lưu giữ khoảnh khắc đẹp nhé! 🎓📸",
-    "sadMsg": "Tiếc quá anh Bách ơi! Tụi em sẽ nhớ anh lắm đây! 😢"
+    "sadMsg": "Tiếc quá anh Bách ơi! Tụi em sẽ nhớ anh lắm đây! 😢 Cảm ơn anh Bách đã phản hồi và đồng hành cùng tụi em trong thời gian qua. Chúc anh luôn đủ pin để chạy hết mọi deadline và mọi mục tiêu phía trước 🏃💨"
   },
   {
     "id": "thoi_toan",
     "name": "Thoi Toan",
     "role": "Mua bat chot",
     "successMsg": "Mưa bất chợt thật sao anh! Rất mong chờ gặp anh! 🎓🥳",
-    "sadMsg": "Anh Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho mọi người đây? Buồn ghê! 😢"
+    "sadMsg": "Anh Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho mọi người đây? Buồn ghê! 😢 Nhưng cảm ơn anh đã phản hồi và đồng hành cùng tụi em trong thời gian qua. Chúc anh vẫn giữ được độ hài hước thương hiệu và xuất hiện đúng lúc như những cơn mưa bất chợt 🌦️😆"
   },
   {
     "id": "hoang_le",
     "name": "Hoang Le",
     "role": "Dang cap",
     "successMsg": "Đẳng cấp vậy anh? 🎓💥",
-    "sadMsg": "Anh Lê không đi được sao? Tụi em sẽ nhớ anh nhiều lắm! 😢"
+    "sadMsg": "Anh Lê không đi được sao? Tụi em sẽ nhớ anh nhiều lắm! 😢 Cảm ơn anh đã phản hồi và đồng hành cùng tụi em trong thời gian qua. Chúc anh tiếp tục duy trì phong độ đẳng cấp nha 😎💥"
   },
   {
     "id": "thien_phu",
     "name": "Thien Phu",
     "role": "Nhan to tiem nang",
-    "successMsg": "Thiên Phú tới là quẩy banh nóc luôn! Rất vui vì em sẽ tham gia! 🎓🎈",
-    "sadMsg": "Thiên Phú không đi được ư? Mất đi một tay quẩy của team rồi, buồn quá! 😢"
+    "successMsg": "Quá tuyệt vời! Rất vui vì Phú sẽ đến chung vui cùng anh chị trong ngày đặc biệt này. Hẹn gặp Phú tại lễ tốt nghiệp nhé 🎓🍃",
+    "sadMsg": "Cảm ơn Phú vì những lời chúc to bự dành cho anh chị. Dù không thể đến chung vui lần này, anh chị vẫn rất trân trọng tình cảm của Phú ❤️ Chúc Phú hoàn thành khóa luận suôn sẻ nhé ✨ Anh chị chờ tin vui từ em nè 🎓"
   },
   {
     "id": "gia_nguyen",
     "name": "Gia Nguyen",
     "role": "Lore Not Found Yet",
     "successMsg": "Nguyên đã sẵn sàng đi rồi ư! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
-    "sadMsg": "Ơ Nguyên không tham gia được ư? Hẹn ông ở dịp khác nhé! "
+    "sadMsg": "Ơ Nguyên không tham gia được ư? Hẹn ông ở dịp khác nhé! Cảm ơn ông vì những lời chúc to bự dành cho tụi tui. Dù không thể đến chung vui lần này, tụi tui vẫn rất trân trọng tình cảm của ông ❤️ Chúc ông hoàn thành chương trình học suôn sẻ nhé ✨ Tụi tui chờ tin vui từ ông nè 🎓"
   },
   {
     "id": "thanh_thien",
     "name": "Thanh Thien",
     "role": "Thien Lu Bo",
     "successMsg": "Cảm ơn vì anh đã chọn có, nhưng mà anh làm sao đi được??? 😢",
-    "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh quá đi mất! 😢"
+    "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh quá đi mất! 😢 Dù gì cũng cảm ơn anh Thiên vì đã luôn hỗ trợ và đồng hành cùng tụi em. Với cả doc của anh trên Confluence chất lượng lắm luônn 😆"
   }
 ]
