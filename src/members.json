@@ -44,21 +44,21 @@
   {
     "id": "nhat_minh",
     "name": "Nhat Minh",
-    "role": "Vua co",
+    "role": "Sieu dai kien tuong",
     "successMsg": "Có Minh là thấy vui rồi nè! Sẵn sàng tỏa sáng thôi bạn ơi! 🎓⚡",
     "sadMsg": "Sao lại vắng mặt thế Minh ơi? Team mong gặp bạn lắm đó! 😢"
   },
   {
     "id": "van_thuong",
     "name": "Van Thuong",
-    "role": "",
+    "role": "Hidden Boss",
     "successMsg": "Anh Thương đã sẵn sàng chưa? Ngày của chúng ta tới rồi! 🎓🚀",
     "sadMsg": "Anh Thương bận mất rồi sao? Bữa tiệc sẽ thiếu đi một mảnh ghép quan trọng! 😢"
   },
   {
     "id": "thai_bach",
     "name": "Thai Bach",
-    "role": "",
+    "role": "Marathon Man 🏃",
     "successMsg": "Anh Bách đã xác nhận tham gia! Cùng lưu giữ khoảnh khắc đẹp nhé! 🎓📸",
     "sadMsg": "Tiếc quá anh Bách ơi! Tụi em sẽ nhớ anh lắm đây! 😢"
   },
@@ -79,21 +79,21 @@
   {
     "id": "thien_phu",
     "name": "Thien Phu",
-    "role": "",
+    "role": "Nhan to tiem nang",
     "successMsg": "Thiên Phú tới là quẩy banh nóc luôn! Rất vui vì em sẽ tham gia! 🎓🎈",
     "sadMsg": "Thiên Phú không đi được ư? Mất đi một tay quẩy của team rồi, buồn quá! 😢"
   },
   {
     "id": "gia_nguyen",
     "name": "Gia Nguyen",
-    "role": "",
+    "role": "Chua bat lore",
     "successMsg": "Gia Nguyên đã sẵn sàng đi rồi ư! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
     "sadMsg": "Gia Nguyên lỡ hẹn rồi sao? Chúc bạn luôn thành công vsà sớm gặp lại! 😢"
   },
   {
     "id": "thanh_thien",
     "name": "Thanh Thien",
-    "role": "",
+    "role": "Khach moi dac biet",
     "successMsg": "Làm sao anh đi được??? 🎓🏫",
     "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh để chúc mừng quá đi mất! 😢"
   }
