@@ -10,8 +10,36 @@ const RSVPForm = () => {
   });
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [rsvpList, setRsvpList] = useState([]);
   const canvasRef = useRef(null);
+
+  const fetchRsvps = async () => {
+    try {
+      const res = await fetch('/api/rsvp');
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data)) {
+          setRsvpList(data);
+        }
+      }
+    } catch (err) {
+      console.error('Failed to fetch RSVPs:', err);
+    }
+  };
+
+  useEffect(() => {
+    fetchRsvps();
+  }, []);
+
   const handleSelectMember = (member) => {
+    const memberRsvp = rsvpList.find(r => r.member_id === member.id);
+    if (memberRsvp) {
+      const statusText = memberRsvp.attending === 'yes' ? 'Sẽ tham gia' : 'Không thể tham gia';
+      const confirmUpdate = window.confirm(
+        `Thành viên ${member.name} đã gửi RSVP (${statusText}). Bạn có chắc chắn muốn thay đổi/cập nhật phản hồi của ${member.name} không?`
+      );
+      if (!confirmUpdate) return;
+    }
     setSelectedMember(member);
   };
 
@@ -63,6 +91,7 @@ const RSVPForm = () => {
       }
 
       setSubmitted(true);
+      fetchRsvps();
     } catch (error) {
       console.error('RSVP submission error:', error);
       alert(`Error submitting RSVP: ${error.message}`);
@@ -241,7 +270,7 @@ const RSVPForm = () => {
               <span className="sad-emoji">😢💧</span>
               <h2 className="sad-title">We'll Miss You!</h2>
               <p className="response-text">
-                Oh no, <strong>{selectedMember.name}</strong>. {selectedMember.sadMsg}
+                {selectedMember.sadMsg}
               </p>
               <div className="rain-container">
                 <div className="rain-drop" style={{ left: '10%' }}></div>
@@ -270,34 +299,42 @@ const RSVPForm = () => {
             <div className="form-group">
               <label className="section-label">Select Your Name</label>
               <div className="team-grid">
-                {teamMembers.map((member) => (
-                  <div 
-                    key={member.id} 
-                    className={`member-card ${selectedMember?.id === member.id ? 'selected' : ''}`}
-                    onClick={() => handleSelectMember(member)}
-                  >
-                    <div className="member-avatar-wrapper">
-                      <img 
-                        src={`/team-photos/${member.id}.jpg`} 
-                        alt={member.name} 
-                        className="member-avatar"
-                        onError={(e) => {
-                          e.target.onerror = null;
-                          // Try loading png before going to fallback avatar API
-                          if (e.target.src.endsWith('.jpg')) {
-                            e.target.src = `/team-photos/${member.id}.png`;
-                          } else {
-                            e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=0b2046&color=dfb15b&size=200&bold=true`;
-                          }
-                        }}
-                      />
+                {teamMembers.map((member) => {
+                  const memberRsvp = rsvpList.find(r => r.member_id === member.id);
+                  return (
+                    <div 
+                      key={member.id} 
+                      className={`member-card ${selectedMember?.id === member.id ? 'selected' : ''} ${memberRsvp ? 'has-rsvp' : ''}`}
+                      onClick={() => handleSelectMember(member)}
+                    >
+                      {memberRsvp && (
+                        <span className={`rsvp-badge ${memberRsvp.attending === 'yes' ? 'attending' : 'not-attending'}`}>
+                          {memberRsvp.attending === 'yes' ? '✓ Có mặt' : '✗ Vắng'}
+                        </span>
+                      )}
+                      <div className="member-avatar-wrapper">
+                        <img 
+                          src={`/team-photos/${member.id}.jpg`} 
+                          alt={member.name} 
+                          className="member-avatar"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            // Try loading png before going to fallback avatar API
+                            if (e.target.src.endsWith('.jpg')) {
+                              e.target.src = `/team-photos/${member.id}.png`;
+                            } else {
+                              e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=0b2046&color=dfb15b&size=200&bold=true`;
+                            }
+                          }}
+                        />
+                      </div>
+                      <div className="member-info">
+                        <h4>{member.name}</h4>
+                        <p>{member.role}</p>
+                      </div>
                     </div>
-                    <div className="member-info">
-                      <h4>{member.name}</h4>
-                      <p>{member.role}</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
             
