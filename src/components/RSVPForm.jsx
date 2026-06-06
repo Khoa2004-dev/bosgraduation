@@ -227,7 +227,7 @@ const RSVPForm = () => {
               <span className="celebrate-emoji">🎓✨🎉</span>
               <h2 className="text-gold">Wonderful!</h2>
               <p className="response-text">
-                Thank you, <strong>{selectedMember.name}</strong>! {selectedMember.successMsg}
+                {selectedMember.successMsg}
               </p>
               {formData.message && (
                 <div className="user-message-preview">
