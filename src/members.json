@@ -23,21 +23,21 @@
   {
     "id": "minh_quy",
     "name": "Minh Quy",
-    "role": "Minh Quy?",
+    "role": "Binh Nhi",
     "successMsg": "Cực kỳ háo hức được gặp anh Quý tại lễ tốt nghiệp luôn nha! 🎓🎉",
     "sadMsg": "Ơ anh Quý không tham gia được ư? Mong sớm gặp lại anh ở dịp khác nhé! 😢"
   },
   {
     "id": "thai_thong",
     "name": "Thai Thong",
-    "role": "Thong Thai",
+    "role": "Nguyen TT",
     "successMsg": "Lên đồ chuẩn bị đi thôi anh Thông ơi! Let's make memories! 🎓💫",
     "sadMsg": "Thiếu anh Thông buổi lễ bớt vui đi một nửa rồi. Tiếc quá đi! 😢"
   },
   {
     "id": "thanh_phong",
     "name": "Thanh Phong",
-    "role": "A talent in kernel dev",
+    "role": "Su Dot Bien",
     "successMsg": "Thanh Phong sẽ đến và mang theo làn gió mới! Hẹn gặp ông nhé! 🎓🍃",
     "sadMsg": "Ớ Phong không tham gia được ư? Ở lại dev kernel à! 😢"
   },
@@ -46,7 +46,7 @@
     "name": "Nhat Minh",
     "role": "Chess Final Boss",
     "successMsg": "Có Minh là thấy vui rồi nè! Sẵn sàng tỏa sáng thôi bạn ơi! 🎓⚡",
-    "sadMsg": "Sao lại vắng mặt thế Minh ơi? Team mong gặp bạn lắm đó! 😢"
+    "sadMsg": "Sao lại vắng mặt thế Minh ơi? Ở lại đánh cờ à? 😢"
   },
   {
     "id": "van_thuong",
@@ -66,7 +66,7 @@
     "id": "thoi_toan",
     "name": "Thoi Toan",
     "role": "Mua bat chot",
-    "successMsg": "Anh Toàn lên đồ thôi nào! Rất mong chờ gặp anh! 🎓🥳",
+    "successMsg": "Mưa bất chợt thật sao anh! Rất mong chờ gặp anh! 🎓🥳",
     "sadMsg": "Anh Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho team đây? Buồn ghê! 😢"
   },
   {
@@ -93,8 +93,8 @@
   {
     "id": "thanh_thien",
     "name": "Thanh Thien",
-    "role": "Special Guest",
-    "successMsg": "Cảm ơn vì anh đã chọn có, nhưng mà anh làm sao đi được 😢",
+    "role": "Thien Lu Bo",
+    "successMsg": "Cảm ơn vì anh đã chọn có, nhưng mà anh làm sao đi được??? 😢",
     "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh quá đi mất! 😢"
   }
 ]
