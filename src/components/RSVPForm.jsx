@@ -11,7 +11,6 @@ const RSVPForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const canvasRef = useRef(null);
-
   const handleSelectMember = (member) => {
     setSelectedMember(member);
   };

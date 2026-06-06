@@ -16,7 +16,7 @@
   {
     "id": "nhat_quang",
     "name": "Nhat Quang",
-    "role": "Human Sunshine",
+    "role": "Sunlight",
     "successMsg": "Chào mừng anh Quang! Ngày đặc biệt này không thể thiếu anh được! 🎓🌟",
     "sadMsg": "Buồn quá anh Quang ơi, không có anh thì ai làm sáng bừng sân khấu đây? 😢"
   },
@@ -53,7 +53,7 @@
     "name": "Van Thuong",
     "role": "Hidden Boss",
     "successMsg": "Anh Thương đã sẵn sàng chưa? Ngày của chúng ta tới rồi! 🎓🚀",
-    "sadMsg": "Anh Thương bận mất rồi sao? Bữa tiệc sẽ thiếu đi một mảnh ghép quan trọng! 😢"
+    "sadMsg": "Anh Thương bận mất rồi sao? Bữa tiệc sẽ thiếu đi một mảnh ghép quan trọng rồi! 😢"
   },
   {
     "id": "thai_bach",
@@ -66,14 +66,14 @@
     "id": "thoi_toan",
     "name": "Thoi Toan",
     "role": "Mua bat chot",
-    "successMsg": "Anh Toàn lên đi thôi nào! Rất mong chờ gặp anh! 🎓🥳",
+    "successMsg": "Anh Toàn lên đồ thôi nào! Rất mong chờ gặp anh! 🎓🥳",
     "sadMsg": "Anh Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho team đây? Buồn ghê! 😢"
   },
   {
     "id": "hoang_le",
     "name": "Hoang Le",
     "role": "Dang cap",
-    "successMsg": "Đẳng cấp vậy? 🎓💥",
+    "successMsg": "Đẳng cấp vậy anh? 🎓💥",
     "sadMsg": "Anh Lê không đi được sao? Cả team sẽ nhớ anh nhiều lắm! 😢"
   },
   {
@@ -87,14 +87,14 @@
     "id": "gia_nguyen",
     "name": "Gia Nguyen",
     "role": "Lore Not Found Yet",
-    "successMsg": "Gia Nguyên đã sẵn sàng đi rồi ư! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
-    "sadMsg": "Gia Nguyên lỡ hẹn rồi sao? Chúc bạn luôn thành công vsà sớm gặp lại! 😢"
+    "successMsg": "Nguyên đã sẵn sàng đi rồi ư! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
+    "sadMsg": "Ơ Nguyên không tham gia được ư? Hẹn ông ở dịp khác nhé! "
   },
   {
     "id": "thanh_thien",
     "name": "Thanh Thien",
     "role": "Special Guest",
-    "successMsg": "Làm sao anh đi được??? 🎓🏫",
-    "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh để chúc mừng quá đi mất! 😢"
+    "successMsg": "Cảm ơn vì anh đã chọn có, nhưng mà anh làm sao đi được 😢",
+    "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh quá đi mất! 😢"
   }
 ]
