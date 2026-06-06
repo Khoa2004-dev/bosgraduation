@@ -357,7 +357,7 @@ const RSVPForm = () => {
             </div>
             
             <div className="form-group">
-              <label htmlFor="message" className="section-label">Leave a message for the team (Optional)</label>
+              <label htmlFor="message" className="section-label">Leave a message for the team</label>
               <textarea 
                 id="message" 
                 name="message" 
