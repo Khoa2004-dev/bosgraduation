@@ -3,18 +3,14 @@ import { Calendar, Clock, MapPin, Plus } from 'lucide-react';
 import './EventDetails.css';
 
 const EventDetails = () => {
-  const handleAddToCalendar = () => {
-    const title = encodeURIComponent('Graduation Ceremony - Team AI So Mot BOS');
-    const details = encodeURIComponent('You are cordially invited to our graduation ceremony!');
-    const location = encodeURIComponent('University of Information Technology, Quarter 34, Linh Xuan Ward, Ho Chi Minh City');
-    
-    // 11:00 to 12:30 in ICT (UTC+7) is 04:00 to 05:30 in UTC
-    const dates = '20260609T040000Z/20260609T053000Z';
-    
-    const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
-    
-    window.open(googleCalendarUrl, '_blank');
-  };
+  const title = encodeURIComponent('Graduation Ceremony - Team AI So Mot BOS');
+  const details = encodeURIComponent('You are cordially invited to our graduation ceremony!');
+  const location = encodeURIComponent('University of Information Technology, Quarter 34, Linh Xuan Ward, Ho Chi Minh City');
+  
+  // 11:00 to 12:30 in ICT (UTC+7) is 04:00 to 05:30 in UTC
+  const dates = '20260609T040000Z/20260609T053000Z';
+  
+  const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
 
   return (
     <section className="event-details-section">
@@ -52,10 +48,15 @@ const EventDetails = () => {
         </div>
         
         <div className="calendar-action text-center">
-          <button className="btn-primary" onClick={handleAddToCalendar}>
+          <a 
+            className="btn-primary" 
+            href={googleCalendarUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
             <Plus size={20} style={{ marginRight: '8px' }} />
             Add to Calendar
-          </button>
+          </a>
         </div>
       </div>
     </section>
